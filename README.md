@@ -14,7 +14,7 @@ or:
 
 ```
 mvn package
-java -jar target/azulapi.jar <number of players (from 2 to 4)>
+java -jar target/azulapi.jar <number of players (from 2 to 4) --server.port=<port, if not entered 8080 will be used>>
 ```
 
 ## Running the tests with Maven

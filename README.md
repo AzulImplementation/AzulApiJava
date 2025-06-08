@@ -4,11 +4,11 @@
 
 Download the jar file from [https://github.com/AzulImplementation/AzulApiJava/releases](releases).
 
-Execute: `java -jar target/azulapi.jar <number of players (from 2 to 4)>`.
+Execute: `java -jar target/azulapi.jar <number of players (from 2 to 4)> --server.port=<port, if not entered 8080 will be used>`.
 
 ## Running the API with Maven
 
-`mvn spring-boot:run "-Dspring-boot.run.arguments=<number of players (from 2 to 4)>"`
+`mvn spring-boot:run "-Dspring-boot.run.arguments=<number of players (from 2 to 4)> --server.port=<port, if not entered 8080 will be used>"`
 
 or:
 

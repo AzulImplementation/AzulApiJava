@@ -23,7 +23,7 @@ java -jar target/azulapi.jar <number of players (from 2 to 4) --server.port=<por
 
 To access the functionality documentation please run the service and visit `/swagger-ui/index.html` endpoint.
 
-Alternatively read the controller code.
+Alternatively read `GameController.java`, `FactoryTakingRequest.java` and `CenterTakingRequest.java` classes which have Swagger documentation.
 
 ## Running the tests with Maven
 

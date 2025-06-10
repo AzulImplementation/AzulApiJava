@@ -1,10 +1,10 @@
 # AzulApiJava
 
-An API to play [https://en.wikipedia.org/wiki/Azul_(board_game)](Azul board game).
+An API to play [Azul board game](https://en.wikipedia.org/wiki/Azul_(board_game)).
 
 ## Using the API
 
-Download the jar file from [https://github.com/AzulImplementation/AzulApiJava/releases](releases).
+Download the jar file from [releases](https://github.com/AzulImplementation/AzulApiJava/releases).
 
 Execute: `java -jar target/azulapi.jar <number of players (from 2 to 4)> --server.port=<port, if not entered 8080 will be used>`.
 
